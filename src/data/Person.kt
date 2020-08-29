@@ -10,12 +10,12 @@ class Person{
 
     // function
     fun sayHello(name: String){
-        println("HEllo $name, MyName is $firsName")
+        println("HEllo $name, MyName is $this.firsName")
     }
 
     // overloading function with different parameters
-    fun sayHello(firstNameParam: String, lastNameParam: String){
-        println("HEllo $firstNameParam $lastNameParam, MyName is $firsName")
+    fun sayHello(firstName: String, lastNameParam: String){
+        println("HEllo $firstName $lastNameParam, MyName is $this.firsName")
     }
 
     fun run(){
