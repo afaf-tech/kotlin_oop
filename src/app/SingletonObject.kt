@@ -7,10 +7,7 @@ fun main() {
     println(Utilities.name)
     println(Utilities.toUpper("flfd"))
 
-
-   println(Applications.Utilities.toUpper("Fikri"))
-
-
-
+   println(Applications.toUpper("Fikri"))
+   println(Applications.Companion.toUpper("Fikri"))
 
 }
